@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 
 import TodoList from "./components/TodoList";
 
-class App extends Component {
+const App = () => {
   constructor(props) {
     super(props);
 
